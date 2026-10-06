@@ -11,7 +11,7 @@ source           rotated 90° clockwise
                  ..#
 ```
 
-It was an entry in the [MacTech Magazine](https://en.wikipedia.org/wiki/MacTech) Programmers' Challenge for April 1993, which asked for a fast `RotateBitMapClockwise()` that writes into a destination `BitMap` whose memory, `rowBytes` and bounds are already set up. Entries were judged on correctness, speed, size and elegance, in that order. Of 16 entries, two were disqualified for using assembly and six for giving wrong results. Steve Israelson won; this entry had the smallest code of the eight correct ones and was third fastest on small bitmaps, and the June 1993 issue published it after the winner for being so small:
+It was an entry in the [MacTech Magazine](https://en.wikipedia.org/wiki/MacTech) "Programmers' Challenge" contest for April 1993 (v.9 Issue 4), which asked for a fast `RotateBitMapClockwise()` that writes into a destination `BitMap` whose memory, `rowBytes` and bounds are already set up. Entries were judged on correctness, speed, size and elegance, in that order. Of 16 entries, two were disqualified for using assembly and six for giving wrong results. Steve Israelson won; this entry had the smallest code of the eight correct ones and was third fastest on small bitmaps, and the June 1993 issue (v.9 Issue 6) published it after the winner for being so small:
 
 | Entry | Code bytes | Test 1 (ticks) | Test 2 (ticks) |
 |---|---:|---:|---:|
